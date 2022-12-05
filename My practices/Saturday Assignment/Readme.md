@@ -1,1 +1,1 @@
-We are goning to add a table to show css selectors.
+We are going to add a table to show css selectors.
