@@ -4,38 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Document</title>
 </head>
 <body>
-  <section class="nav-container">
-    <nav>
-      <div>
-        <img src="" alt="logo">
-        <h1>Visual Studio Code</h1>
-        <ul>
-          <li>Docs</li>
-          <li>Updates</li>
-          <li>Blog</li>
-          <li>API</li>
-          <li>Extensions</li>
-          <li>FAQ</li>
-          <li>Learn</li> 
+  <section class="nav-container bg-neutral-700 text-white">
+    <nav class="flex items-center">
+      <div class="flex flex-row grow">
+        <img class="w-6 h-6 mt-2 ml-20" src="assets/vscode.png" alt="logo">
+        <h1 class="text-center mt-2 ml-4">Visual Studio Code</h1>
+        <ul class="flex">
+          <li class="m-2 text-slate-400">Docs</li>
+          <li class="m-2 text-slate-400">Updates</li>
+          <li class="m-2 text-slate-400">Blog</li>
+          <li class="m-2 text-slate-400">API</li>
+          <li class="m-2 text-slate-400">Extensions</li>
+          <li class="m-2 text-slate-400">FAQ</li>
+          <li class="m-2 text-slate-400">Learn</li> 
         </ul>
       </div>
-      <div>
-        <form >
-          <img src="" alt="search">
-            <label for="search">hello</label>
-            <input type="search" name=search" id="">
+      <div class="flex mr-20">
+        <form class="bg-neutral-600">
+          <button class="relative top-3">
+            <img src="./assets/icons8-search-32 (1).png" alt="">
+          </button>
+          <input type="search" name=search" placeholder="Search Docs" class="text-white bg-neutral-600 ml-4">
         </form>
-        <span>
+        <span class="flex bg-blue-600 p-2.5">
+          <img src="assets/icons8-download-32.png" alt="download">
           <button>Download</button>
-          <img src="" alt="download">
         </span>
       </div>
     </nav>
   </section>
-  <section class="notice">
+  <!-- <section class="notice">
     <div class="disclaimer">
       <p>
         This is not the official vscode website. It is just a vscode clone and only used for educational purposes
@@ -129,6 +131,6 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </body>
 </html>
