@@ -6,9 +6,7 @@
 * css selectors
 * css flexbox
 * git basics
-
-coming soon....
 * css grid
-* css positions 
-* css media query
+* css positions and  media query
+
 
