@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  font-family:'Trebuchet MS', sans-serif;
+  font-family:'Orbitron', sans-serif;
 }
 body{
   margin-left: 50px;
@@ -16,20 +16,33 @@ body{
 .list-item{
   list-style: none;
 }
+.list-item:first-child{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
 .navbar-container{
   display: flex;
 }
 .button-group{
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
 }
-
+.search-icon{
+  position: relative;
+  top: 2px;
+  left: 60px;
+}
 .navbar-container div:first-child{
-  flex-grow: 0.3;
   align-self: center;
+  flex-grow: 2;
+}
+.hero-container div:nth-last-child(2) img{
+  width: 75%;
 }
 .navbar-container div:nth-child(2){
-  flex-grow: 0.3;
+  flex-grow: 1;
 }
 .list-item{
   margin: 25px;
@@ -41,50 +54,51 @@ body{
   border: 2px solid black;
   background-color: #fff;
   border-radius: 12px;
-  padding: 6px 32px;
+  padding: 8px 48px;
   font-size: larger;
 }
 .hero-container > div:nth-last-child(2){
   position:absolute;
-  top: 200px;
+  top: 150px;
 }
 .square{
   position: absolute;
-  top: 500px;
-  left: 270px;
+  top: 330px;
+  left: 138px;
 }
 .globe{
   position: absolute;
-  left: 800px;
+  top: 100px;
+  left: 700px;
 }
 .hero-container > span:nth-child(3){
   position: absolute;
-  left: 1100px;
-  top: 120px;
+  left: 1180px;
+  top: 150px;
 }
 
 .hero-container > span:nth-child(2){
   position: relative;
-  left: 700px;
-  top: 700px;
+  left: 550px;
+  top: 550px;
 }
 .hero-container-right{
   position: absolute;
-  left: 650px;
-  top: 400px;
+  left: 600px;
+  top: 250px;
   display: flex;
   flex-direction: column;
   align-items:center;
 }
 .hero-heading{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .hero-description{
   text-align: center;
-  margin: 20px 70px;
+  padding: 100px;
 }
 .hero-container-right > div{
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .button-email{
   border: 1px solid black;
