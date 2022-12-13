@@ -8,5 +8,6 @@
 * git basics
 * css grid
 * css positions and  media query
+* html(on the web)
 
 
