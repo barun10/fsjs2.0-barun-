@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors</title>
+  <style>
+    * {
+      background-color: #E5D68A;
+    }
+
+    img {
+      border: 4px solid blue;
+    }
+
+    .italics {
+      font-style: italic;
+      font-weight: bolder;
+    }
+
+    a.italics {
+      text-decoration: none;
+    }
+
+    .italics#underlined {
+      text-decoration: underline;
+    }
+
+    li.funny p {
+      color: grey;
+    }
+
+    li.funny p+h2 {
+      color: #fff;
+    }
+
+    h2 span {
+      background-color: lightyellow;
+      color: black;
+    }
+
+    td>span {
+      font-style: italic;
+    }
+
+    #first_line+li {
+      font-weight: bolder;
+    }
+
+    #first_line~li {
+      margin: 10px;
+      outline-style: dotted;
+    }
+
+    ul,
+    ol {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    a.visited {
+      color: green;
+    }
+
+    a.unvisited {
+      color: purple;
+    }
+
+    a.hover:hover {
+      color: red;
+    }
+
+    h1:hover::after {
+      content: 'hello';
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <table border="1" cellspacing="0">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Column1</th>
+        <th>Column2</th>
+        <th>Column3</th>
+        <th>Column4</th>
+        <th>Column5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row1</td>
+        <td>
+          <div>my cell</div>
+        </td>
+        <td>
+          <p class="italics">this is main cell</p>
+        </td>
+        <td>
+          <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>so obvious</li>
+            <li class="italics" id="underlined">same thing</li>
+            <li class="funny">
+              <p>why do we even bother</p>
+              <h2>No we should <span>Here i am</span></h2>
+            </li>
+          </ul>
+        </td>
+        <td></td>
+        <td>
+          <a href="" class="visited">I am visited link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Row2</td>
+        <td></td>
+        <td></td>
+        <td>
+          <p>I do not know what to write</p>
+        </td>
+        <td>
+          <span>i am not a div</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Row3</td>
+        <td>
+          <a href="" class="unvisited">Click on me</a>
+        </td>
+        <td></td>
+        <td>
+          <img src="tower.jpg" alt="myimage" width="80" height="40">
+        </td>
+        <td></td>
+        <td>
+          <a href="" class="hover">Hover over me</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Row4</td>
+        <td></td>
+        <td></td>
+        <td>
+          <h1 class="italics">this is the main cell</h1>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Row5</td>
+        <td></td>
+        <td>
+          <a href="https://facebook.com" class="italics">Go to facebook</a>
+        </td>
+        <td>
+          <ol>
+            <li>this is ordered list</li>
+            <li class="">And they are not copied</li>
+            <li>Barunabha holds all the rights</li>
+          </ol>
+        </td>
+        <td></td>
+        <td>
+          <span>Another span</span>
+          <p>
+          <ul>
+            <li id="first_line">Hey there</li>
+            <li><span>hello</span></li>
+            <li>⚠️⚠️High Voltage⚠️⚠️</li>
+            <li>💀💀Bane is here💀💀</li>
+          </ul>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
