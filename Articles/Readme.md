@@ -9,11 +9,12 @@
 * css grid
 * css positions and  media query
 * html(on the web)
+* Css box model
+* Audio and video tags
 
 ## Coming soon
  * Html element
  * Input elements
- * Audio and video tags
- * Css box model
+
 
 
