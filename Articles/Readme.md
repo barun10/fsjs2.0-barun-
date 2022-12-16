@@ -11,10 +11,8 @@
 * html(on the web)
 * Css box model
 * Audio and video tags
-
-## Coming soon
- * Html element
- * Input elements
+* Html element
+* Input elements
 
 
 
