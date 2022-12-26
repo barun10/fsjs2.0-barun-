@@ -36,3 +36,36 @@
 
 //checking the type of element
 // console.log(typeof diff[4]);
+
+//determine the length of the array
+// console.log(diff.length);
+// console.log(diff[diff.length - 1]);
+
+//checking the at method
+
+// console.log(diff.at(2));
+// console.log(diff.at(-1));
+
+//concatenating arrays
+// let arr = ["apple", "banana", "cherry"]
+// let arr2 = ["mango", "plum"]
+// console.log(arr.concat(arr2))
+// let arr3 = ["pineapple", "grapes"]
+// console.log(arr.concat(arr2).concat(arr3))
+// console.log(arr.concat(arr2, arr3))
+
+//copywithin method
+
+// let arr = ["apple", "banana", "cherry"]
+// console.log(arr.copyWithin(2,0))
+// let fruits = ["apple", "banana", "cherry", "Peach", "pineapple", "grapes", "kiwi", "mango"]
+// console.log(fruits.copyWithin(6,4,5))
+
+//entries method
+
+// let fruits = ["apple", "banana", "cherry", "Peach", "pineapple", "grapes", "kiwi", "mango"]
+// let it = fruits.entries();
+// console.log(it.next().value)
+// console.log(it.next().value)
+// console.log(it.next().value)
+// console.log(it.next().value)
