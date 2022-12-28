@@ -100,3 +100,40 @@
 // let num = [1,2,3,[4,5],[6,7,[[8,9]]]]
 
 // console.log(num.flat());
+
+//forEach method
+
+// let num = [1,2,3,4,5,6,7,8,9]
+// num.forEach(num => console.log(num*2))
+
+//includes method
+
+// let num = [1,2,3,4,5,6,7,8,9]
+// console.log(num.includes(10))
+
+//indexOf method
+
+// let num = [1,2,3,4,5,6,7,8,9]
+// console.log(num.indexOf(7))
+
+//lastIndexOf method
+// let num = [1,2,3,4,5,6,1,8,9]
+// console.log(num.lastIndexOf(1))
+
+//isArray method
+
+// let num = [1,2,3,4,5,6,7,8,9]
+// console.log(Array.isArray(num))
+
+ //join method
+// let array = ["fire", "water", "sand", "grass"]
+// // console.log(array.join("🔥"))
+// console.log(array.join())
+
+//keys method
+// let array = ["fire", "water", "sand", "grass"]
+// let keys = array.keys()
+// for (const key of keys) {
+//   console.log(key)
+//   console.log(array[key])
+// }
