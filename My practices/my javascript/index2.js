@@ -177,3 +177,34 @@
 //slice method
 // let array = ["fire", "water", "sand", "grass"]
 // console.log(array.slice(1,4))
+
+
+//some method
+// const num = [1, 3, 7]
+// console.log(num.some(n => n % 2 === 0))
+
+//sort method
+// const array = ["fire", "water", "sand", "grass"]
+// const num = [1,2,4,5,6,7,8,9,10,17,11,12,13,14,15,16,18,3]
+// console.log(num.sort((a, b) => a - b))
+
+//splice method
+// const num = [1,2,3,4,5,6,7,8]
+// num.splice(1, 5 ,4, 5)
+// console.log(num)
+
+//tosrting method
+// let num = [1,2,3,4,"5",6,7,8]
+// const hello = num.toString()
+// console.log(typeof hello)
+
+//unshift method
+// let one = [1,2,3,4,5,6,7,8]
+// console.log(one.unshift(8,5))
+// console.log(one)
+
+//values method
+// let ones = [1,2,3,4,5,6,7,8]
+// for (const one of ones) {
+//   console.log(one)
+// }
