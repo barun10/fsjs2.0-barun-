@@ -137,3 +137,43 @@
 //   console.log(key)
 //   console.log(array[key])
 // }
+//map method
+
+// let words = ["fire", "water", "sand", "grass"]
+// let pics = ["🔥", "💧", "⏳", "🍏"]
+
+// let map1 = words.map(word => word + pics[words.indexOf(word)])
+// console.log(map1)
+
+//of method
+// let num = Array.of(1, 2, 3, 4, 5, 6, 7, 8)
+// console.log(num)
+
+//push and pop method
+// let num = [1, 2, 3, 4, 5, 6, 7, 8]
+// num.push(9,10,11)
+// console.log(num)
+// num.pop()
+// console.log(num)
+
+//reduce method
+// let num = [1,2,3,4,5,6,7,8]
+// console.log(num.reduce((a, b) => a * b ))
+
+//reduceRight method
+// let num = [1,2,3,4]
+// console.log(num.reduceRight((a, b) => a + (b/2)))
+
+//reverse method
+
+// let num = [1,2,3,4,5,6,7,8]
+// console.log(num.reverse())
+
+//shift method
+// let array = ["fire", "water", "sand", "grass"]
+// console.log(array.shift())
+// console.log(array)
+
+//slice method
+// let array = ["fire", "water", "sand", "grass"]
+// console.log(array.slice(1,4))
