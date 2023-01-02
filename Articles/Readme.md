@@ -13,6 +13,7 @@
 * Audio and video tags
 * Html element
 * Input elements
+* Javascript Array Methods
 
 
 
