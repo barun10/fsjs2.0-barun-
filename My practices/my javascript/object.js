@@ -56,3 +56,15 @@
 // });
 // const copy = Object.assign({}, obj);
 // console.log(copy)
+
+//create method
+// const fish = {
+//   whale: "🐋",
+//   snail: "🐌",
+//   rock: "🪨"
+// }
+// const newobj = Object.create(fish, {cock: {value: 1}});
+// // newobj.catfish = "catfish"
+// // newobj.snail = "⚠️"
+
+// console.log(newobj.cock);
