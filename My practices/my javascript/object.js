@@ -68,3 +68,29 @@
 // // newobj.snail = "⚠️"
 
 // console.log(newobj.cock);
+
+//defineProperties method
+// const object1 = {}
+
+// Object.defineProperties(object1, {
+//   property: {
+//     value: 1,
+//     writable: true,
+//     enumerable: true,
+//   },
+//   property2: {}
+// });
+
+// console.log(object1.property)
+
+// const myobj = {};
+// Object.defineProperty(myobj, "property", {
+//   value: 22,
+//   configurable: true
+// });
+
+// myobj.property = 32;
+
+// Object.defineProperty(myobj, {property: {value: 1, writable: true}});
+
+// console.log(myobj.property);
