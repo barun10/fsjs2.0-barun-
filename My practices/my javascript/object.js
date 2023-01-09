@@ -94,3 +94,20 @@
 // Object.defineProperty(myobj, {property: {value: 1, writable: true}});
 
 // console.log(myobj.property);
+
+//entries method(static)
+// const numbers = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+// };
+// for(const [key, value] of Object.entries(numbers)) {
+//   console.log(`${key}: ${value}`);
+// }
+// console.log(Object.entries(numbers))
+
+// console.log(Object.entries(numbers).length)
+
+// console.log(Object.entries("foo"))
+
+//writable, configurable, enumerable
