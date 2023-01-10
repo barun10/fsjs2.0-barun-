@@ -111,3 +111,20 @@
 // console.log(Object.entries("foo"))
 
 //writable, configurable, enumerable
+
+//freeze method
+// const animal ={
+//   dog: "🐕",
+//   cat: "🐚",
+//   newanimal : {
+//     cuckoo: "🐦",
+//     crow: "👑"
+//   }
+// }
+
+// Object.freeze(animal);
+
+// animal.cat = "😺"
+// console.log(animal.cat)
+// animal.newanimal.crow = "🐖"
+// console.log(animal.newanimal.crow);
