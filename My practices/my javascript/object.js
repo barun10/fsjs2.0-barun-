@@ -128,3 +128,33 @@
 // console.log(animal.cat)
 // animal.newanimal.crow = "🐖"
 // console.log(animal.newanimal.crow);
+
+// const entries = new Map(
+//   [
+//     ['foo', 'bar'],
+//     ['baz', 31]
+//   ]
+// );
+
+// const obj = Object.fromEntries(entries)
+// console.log(obj)
+
+// const animal = [
+//   ["0", "a"],
+//   ["1", "b"],
+//   ["2", "c"]
+// ]
+
+// const obj = Object.fromEntries(animal)
+// console.log(obj)
+
+// const main_object = {
+//   tm: "This method is used to",
+//   wi: "What is",
+//   ht: "How to"
+// }
+
+// const main_object2 = Object.fromEntries(
+//   Object.entries(main_object).map(([key, value]) => [key, value + " no"])
+// )
+// console.log(main_object2)
