@@ -158,3 +158,53 @@
 //   Object.entries(main_object).map(([key, value]) => [key, value + " no"])
 // )
 // console.log(main_object2)
+
+//getOwnPropertyDescription
+// const object1 = {
+//   property1: 42
+// };
+
+// const descriptors1 = Object.getOwnPropertyDescriptors(object1);
+
+// console.log(descriptors1.property1.writable);
+// // expected output: true
+// console.log(descriptors1.property1.configurable);
+// console.log(descriptors1.property1.enumerable);
+// console.log(descriptors1.property1.value);
+// // expected output: 42
+
+// getOwnpropertyNames()
+// const food = {
+//   pizza: "🍕",
+//   avocado: "🥑",
+//   noodles: "🍜"
+// }
+
+// console.log(Object.getOwnPropertyNames(food))
+// console.log(Object.getOwnPropertyNames("bazz"))
+//getOwnPropertySymbols
+// const prototype1 = {}
+// const object1 = Object.create(prototype1)
+// console.log(Object.getPrototypeOf(object1) == prototype1)
+
+//hasOwn method
+// const occupation = {
+//   doctor: "👩‍⚕",
+//   lawyer: "🧑‍⚖️"
+// }
+
+// console.log(Object.hasOwn(occupation, 'doctor'))
+// console.log(Object.hasOwn(occupation, 'toString'))
+
+// hasOwnproperty method
+// const animal = {
+//   lion: "🦁",
+//   tiger: "🐯",
+//   whale: "🐳"
+// }
+// console.log(animal.hasOwnProperty("whale"))
+
+//is method
+
+// console.log(Object.is(NaN,undefined))
+// console.log(Object.is("foo", "foo"))
