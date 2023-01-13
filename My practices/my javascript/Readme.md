@@ -5,3 +5,6 @@
   - Javascript introduction
 - index2.js
  - Javascript array methods
+
+- object.js
+  - Javascript object methods
