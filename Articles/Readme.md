@@ -14,6 +14,6 @@
 * Html element
 * Input elements
 * Javascript Array Methods
-
+* Javascript prototypes
 
 
