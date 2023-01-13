@@ -208,3 +208,114 @@
 
 // console.log(Object.is(NaN,undefined))
 // console.log(Object.is("foo", "foo"))
+
+//isExtensible method
+
+// const animal = {
+//   lion: "🦁",
+//   tiger: "🐯",
+//   whale: "🐳"
+// }
+// console.log(Object.isExtensible(animal))
+// Object.preventExtensions(animal)
+// animal.hole = "🕳"
+// animal.tiger = "🥑"
+// console.log(animal)
+
+//isFrozen method
+
+// const animal = {
+//   lion: "🦁",
+//   tiger: "🐯",
+//   whale: "🐳"
+// }
+// // console.log(Object.isFrozen(animal))
+// // Object.freeze(animal)
+// Object.preventExtensions(animal)
+// animal.lion = "🐬"
+// animal.pig = "🐷"
+// console.log(Object.isFrozen(animal))
+// console.log(animal)
+
+//isPrototypeOf method
+// function Bar() {}
+// function Foo() {}
+
+// Bar.prototype = Object.create(Foo.prototype);
+
+// const bar = new Bar();
+
+// console.log(Foo.prototype.isPrototypeOf(bar));
+// console.log(bar.isPrototypeOf(bar));
+
+
+//isSealed method
+// const bird = {
+//   eagle: "🦅",
+//   sparrow: "🐦",
+//   chicken: "🐔"
+// }
+
+// console.log(Object.isSealed(bird))
+
+// Object.seal(bird)
+
+// bird.eagle = "🦁"
+
+// delete bird.sparrow
+
+// bird.fish = "🐟"
+
+// console.log(bird)
+// console.log(Object.isSealed(bird))
+
+
+//keys method
+
+// const bird = {
+//   eagle: "🦅",
+//   sparrow: "🐦",
+//   chicken: "🐔"
+// }
+
+// console.log(Object.keys(bird))
+
+
+//preventExtensions
+
+// const family = {
+//   father: "👨",
+//   dracula: 1,
+//   brother: "my name is barun"
+// }
+
+// Object.preventExtensions(family)
+
+// family.dracula = "👻",
+// family.elderBrother = "hello my name is tom"
+// console.log(family)
+
+// console.log(Object.isExtensible(family))
+
+//propertyEnumerable method
+
+// const everything = {
+//   array: [1,2,3,4,5,6],
+//   char: 'c',
+//   fish: "🐬"
+// }
+
+// console.log(everything.propertyIsEnumerable('array'))
+// console.log(everything.propertyIsEnumerable('char'))
+// console.log(everything.propertyIsEnumerable('length'))
+
+
+//values
+
+// const family = {
+//   father: "👨",
+//   dracula: 1,
+//   brother: "my name is barun"
+// }
+
+// console.log(Object.values(family))
