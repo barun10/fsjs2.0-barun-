@@ -1,1 +1,1 @@
-# This folder contains vscode clone project
+# This folder contains vscode clone project(completed)
