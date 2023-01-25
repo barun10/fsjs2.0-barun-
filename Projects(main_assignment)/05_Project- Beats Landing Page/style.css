@@ -1,0 +1,296 @@
+* {
+	margin: none;
+	padding: none;
+	font-family: 'Poppins';
+}
+body{
+	color: #fff;
+	background-color: #0D0D0D;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.navbar{
+  display: flex;
+}
+.main-image {
+  margin-left: 150px;
+  margin-top: -180px;
+}
+.navbar > .right{
+  margin-left: 100px;
+}
+.navbar > .right > nav{
+  display: flex;
+}
+.navbar .right-first{
+  display: flex;
+}
+.navbar > .right nav > ul{
+  display: flex;
+}
+
+.navbar >.right nav > ul > li{
+  list-style: none;
+  margin-right: 60px;
+  font-weight: bold;
+}
+.navbar > .right > .right-first button{
+  padding: 10px 50px;
+  background-color: #242B2E;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.first-ad{
+  margin-left: 36px;
+  margin-top: 40px;
+}
+.first-ad > img{
+  margin-left: 100px;
+}
+.first-ad h1{
+  font-size: 40px;
+  background-color: none;
+}
+.first-ad > h5{
+  margin-top: 50px;
+  font-size: 16px;
+  margin-right: 600px;
+}
+.first-ad p{
+  margin-top: 50px;
+  margin-right: 300px;
+  font-weight: lighter;
+  font-size: 0.9em;
+}
+.first-ad > button{
+  margin-top: 50px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  background-color: #242B2E;
+}
+.first-ad > button > span{
+  background-color: #242B2E;
+}
+.first-ad > button > span > img{
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  background-color: #242B2E;
+}
+.first-ad > button > strong {
+  margin: 0px 5px;
+  background-color: #242B2E;
+}
+.partners{
+  margin-top: 200px;
+  display: flex;
+  margin-left: 150px;
+}
+.partners > div{
+  margin: 0px 50px;
+}
+.specs{
+  margin-top: 100px;
+  margin-left: 250px;
+  font-size: 80%;
+}
+.specs > img{
+  margin-left: 200px;
+}
+.specs-main{
+  display: flex;
+}
+.specs-main > .case-description .feature:first-child{
+  margin-left: 50px;
+}
+.specs-main > .case-description .feature:last-child{
+  margin-left: 50px;
+}
+.headphone-image{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.case{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+.case > img{
+  margin-left: 380px;
+}
+.case-content{
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+}
+.case-content-description{
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 250px;
+}
+.case-content-description > button{
+  margin-top: 30px;
+  border: none;
+  background-color: #242B2E;
+  padding: 8px 20px;
+  color: #fff;
+  display: flex;
+}
+.case-content-description > button > img{
+  background-color: #242B2E;
+  padding-top: 2px;
+}
+.case-content-description > button > strong{
+  background-color: #242B2E;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 1.1em;
+}
+.buy-now{
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 80px;
+}
+.buy-now > div{
+  background-color: #242B2E;
+  display: flex;
+  padding-left: 150px;
+}
+.buy-now > div > .left{
+  margin-top: 50px;
+  background-color: #242B2E;
+  padding-right: 150px;
+}
+.buy-now > div > .left > h3{
+  margin: 20px 0px;
+  background-color: #242B2E;
+}
+.buy-now > div > .left > p{
+  margin: 20px 0px;
+  background-color: #242B2E;
+}
+.buy-now > div > .left > button{
+  margin: 20px 0px;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  display: flex;
+  background-color: #0D0D0D;
+}
+.buy-now > div > .left > button > strong{
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.buy-now > div > .right{
+  background-color: #242B2E;
+}
+.buy-now > div > .right > img{
+  margin: 50px;
+  background-color: #242B2E;
+}
+.choose-your-style{
+  margin-top: 100px;
+}
+.choose-your-style .product-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 50px;
+}
+.choose-your-style .product-description{
+  margin: 0px 80px;
+  display: flex;
+  background-color: #242B2E;
+}
+.choose-your-style .product-description > div:first-child{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.choose-your-style .product-description > div:nth-child(2){
+  margin-left: 70px;
+  margin-top: 110px;
+}
+.choose-your-style .buy-now-image{
+  position: relative;
+  background-color: #0D0D0D;
+  padding: 5px;
+}
+
+.choose-your-style .product-image:first-child .buy-now-image{
+  left: 60px;
+}
+.choose-your-style .product-image:nth-child(2) .buy-now-image{
+  left: 30px;
+}
+.choose-your-style .product-image:nth-child(3) .buy-now-image{
+  left: 15px;
+}
+.choose-your-style .product-image:nth-child(4) .buy-now-image{
+  left: 60px;
+}
+.choose-your-style > img{
+  margin-left: 350px;
+  margin-top: 100px;
+}
+.choose-your-style .product-image-headphone{
+  width: 100px;
+  height: 130px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+}
+footer{
+  margin-top: 200px;
+  display: flex;
+}
+footer > div{
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+footer > div > h3{
+  margin-left: 40px;
+}
+footer > div > ul > li{
+  list-style: none;
+  font-weight: lighter;
+  margin: 10px 0px;
+}
+footer input{
+  background-color: #242B2E;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+footer input::placeholder{
+  color: #fff;
+}
+footer button{
+  background-color: #0D0D0D;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+footer .email-part{
+  border-radius: 10px;
+}
+footer .third-part > div:first-child{
+  background-color: #242B2E;
+}
+footer a{
+  text-decoration: none;
+}
+footer a img{
+  margin: 25px 21px;
+}
+footer a:first-child img{
+  margin-left: 0px;
+}
+footer a:last-child img{
+  margin-right: 0px;
+}
