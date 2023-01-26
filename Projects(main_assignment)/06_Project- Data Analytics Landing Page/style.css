@@ -1,0 +1,295 @@
+*{
+  margin: none;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0px;
+}
+nav{
+  background-color: #e6f2ff;
+  display: flex;
+}
+nav .logo{
+  margin: 10px 100px;
+}
+nav .nav-buttons{
+  margin-left: 450px;
+  margin-right: 50px;
+}
+nav .nav-buttons ul{
+  display: flex;
+}
+nav .nav-buttons ul li{
+  list-style: none;
+  margin: 0px 20px;
+}
+nav .trial {
+  margin: 10px;
+}
+nav .trial button{
+  padding: 10px 30px;
+  border: 2px solid #5A20CB;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.first-section{
+  background-color: #e6f2ff;
+  display: flex;
+}
+.first-section > div{
+  margin: 100px;
+}
+.first-section .left .version-statement{
+  padding: 5px 25px;
+  background-color: #fff;
+  margin-right: 380px;
+  border-radius: 20px;
+  color: #5A20CB;
+}
+.first-section .left .version-statement a{
+  color: #5A20CB;
+}
+.first-section .left h1{
+  margin-right: 170px;
+  font-size: 3em;
+}
+.first-section p{
+  margin-right: 160px;
+}
+.first-section .button-group{
+  margin-top: 80px;
+}
+.first-section .button-group button{
+  padding: 10px 30px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+.first-section .button-group button:first-child{
+  color: #fff;
+  background-color: #5A20CB;
+}
+.first-section .button-group button:last-child{
+  color: #5A20CB;
+  background-color: #fff;
+}
+.features{
+  margin: 200px;
+  text-align: center;
+}
+.features .first-feature .why-qubly{
+  padding: 10px 5px;
+  background-color: #eee6ff;
+  margin: 0px 400px;
+  color: #5A20CB;
+  border-radius: 20px;
+}
+.features .first-feature h2{
+  font-size: 2.3em;
+}
+.features .first-feature p{
+  margin: 30px 120px;
+}
+.features .first-feature .why-qubly span:first-child{
+  position: relative;
+  top: 3px;
+}
+.features .first-feature .why-qubly span:last-child{
+  margin-left: 10px;
+}
+.features .second-feature{
+  display: flex;
+}
+.features .second-feature > div{
+  margin: 50px 20px;
+}
+.features .third-feature{
+  display: flex;
+  text-align: left;
+}
+.features .third-feature-desc{
+  margin: 100px;
+}
+.features .third-feature-desc > div{
+  padding: 10px;
+  background-color: #eee6ff;
+  margin-right: 270px;
+  border-radius: 20px;
+}
+.features .third-feature-desc > div > span:first-child{
+  position: relative;
+  top: 5px;
+}
+.features .third-feature-desc > div > span:last-child{
+  margin-left: 10px;
+  color: #5A20CB;
+}
+.features .third-feature-desc h2{
+  font-size: 2.2em;
+}
+.features .third-feature-desc p{
+  font-size: 0.9em;
+  margin-right: 20px;
+}
+.features .fourth-feature{
+  margin-top: 100px;
+  display: flex;
+  text-align: left;
+}
+.features .fourth-feature-desc{
+  margin-top: 100px;
+}
+.features .fourth-feature-desc > div{
+  padding: 10px 15px;
+  background-color: #eee6ff;
+  margin-right: 250px;
+  border-radius: 20px;
+}
+.features .fourth-feature-desc > div > span:first-child{
+  position: relative;
+  top: 5px;
+}
+.features .fourth-feature-desc > div > span:last-child{
+  padding-left: 10px;
+}
+.features .fourth-feature-desc > h2{
+  margin-top: 50px;
+  font-size: 2em;
+  width: 550px;
+}
+.features .fourth-feature-desc > p{
+  margin-top: 20px;
+}
+.features .fourth-feature-image{
+  margin-top: 100px;
+}
+.intro{
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+.intro p{
+  margin: 50px 200px;
+  font-size: 1.4em;
+}
+.intro hr{
+  width: 70%;
+}
+.intro .logo-line{
+  margin: 50px;
+}
+.intro .logo-line > img{
+  margin: 0px 60px;
+}
+.sign-up{
+  display: flex;
+  margin: 0px 200px;
+}
+.sign-up > div{
+  width: 50%;
+}
+.sign-up h3{
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+.sign-up p{
+  position: absolute;
+  top: 3390px;
+  left: 370px;
+  padding: 2px 15px;
+  background-color: #fff;
+  color: #758283;
+}
+.sign-up hr{
+  width: 78%;
+  position: relative;
+  right: 60px;
+}
+.sign-up .logo-list-first{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.sign-up img:first-child{
+  margin-left: 6px;
+  margin-right: 150px;
+}
+ .sign-up .logo-list-second{
+  margin-bottom: 100px;
+}
+.sign-up > div:last-child{
+  margin-top: 150px;
+  display: flex;
+}
+.sign-up .upper{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  position: relative;
+  bottom: 170px;
+  background-color: #fff;
+  left: 25px;
+  border: 1px solid #f2f2f2;
+  padding: 50px;
+  box-shadow: 0px 12px 8px 12px #cfbdf5;
+}
+ .sign-up .upper > h4{
+  font-weight: bolder;
+}
+.sign-up .upper > button{
+  border: none;
+  padding: 10px 120px;
+  background-color: #5A20CB;
+  color: #fff;
+  margin: 20px;
+}
+
+.sign-up .upper > input{
+  padding: 15px 180px 15px 15px;
+  text-align: start;
+}
+
+.sign-up .upper a{
+  text-decoration: none;
+  color: #5A20CB;
+}
+.sign-up hr{
+  margin-left: 100px;
+}
+footer{
+  display: flex;
+  margin: 0px 200px 0px 100px;
+}
+footer > div{
+  margin-right: 30px;
+}
+footer > div:first-child{
+  width: 320px;
+  margin-top: 26px;
+}
+footer p{
+  font-size: 14px;
+}
+footer h5{
+  font-size: 1.2em;
+}
+footer li{
+  list-style: none;
+  margin: 12px 0px;
+}
+footer a{
+  text-decoration: none;
+  color: #0D0D0D;
+}
+footer .input-group{
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px #eee6ff;
+}
+footer input{
+  border: none;
+}
+footer button{
+  border: none;
+  background-color: #fff;
+}
