@@ -1,0 +1,6 @@
+      document.querySelectorAll("input")[1].placeholder = "FSJS 2.0"
+      document.querySelectorAll("input")[2].placeholder = "fsjs@ineuron.ai"
+      document.querySelectorAll("textarea")[0].placeholder = "Hello World"
+      document.querySelectorAll("input")[3].placeholder = "FSJS 2.0"
+      document.querySelectorAll("input")[4].placeholder = "fsjs@ineuron.ai"
+      document.querySelectorAll("textarea")[1].placeholder = "Hello World"
